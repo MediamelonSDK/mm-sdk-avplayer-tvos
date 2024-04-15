@@ -1,0 +1,11 @@
+framework module MMAVPlayerFramework {
+  umbrella header "MMAVPlayerFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module MMAVPlayerFramework.Swift {
+  header "MMAVPlayerFramework-Swift.h"
+  requires objc
+}
